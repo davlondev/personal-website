@@ -7,9 +7,15 @@ if (temp == "") {
 }
 
 
-$.get("templates/navbar.html", function (data) {
+
+// $.get("templates/navbar.html", function (data) {
+//   $("#navbar-placeholder").replaceWith(data);
+// });
+
+$.get("templates/navbar-darkmode.html", function (data) {
   $("#navbar-placeholder").replaceWith(data);
 });
+
 
 //console.log(temp);
 

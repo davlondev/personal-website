@@ -1,0 +1,143 @@
+/* {
+   outline: red 1px solid;
+}*/
+
+html body {
+    font-family: 'Manrope';
+    color: rgb(200,200,200);
+    background-color: rgb(50, 52, 55);
+    font-size: 25px;
+}
+
+.navbar {
+    margin-top: 15px;
+    
+}
+
+#navbar-items .nav-link.active {
+    transition: none;
+    text-decoration: none;
+    color: rgb(200,200,200);
+    /*color: #7E7E7E;*/
+/* .nav-link.active { */
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+#navbar-items a {
+/* .navbar a {  */
+   background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    linear-gradient(to right, rgba(150, 150, 150, 1), rgba(150, 150, 150, 1), rgba(150, 150, 150, 1));  
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 600ms;
+}
+
+/* a:hover,
+a:focus { */
+#navbar-items .nav-link:hover,
+#navbar-items .nav-link:focus {
+    color: rgb(200,200,200);
+    /*color: #7E7E7E;*/
+  background-size: 0 0.1em, 100% 0.1em;
+}
+
+
+#top-logo {
+    transition: 0.4s ease;
+}
+
+#top-logo:hover,
+#top-logo:focus {
+    transform: scale(1.1);
+}
+
+.main-content-section {
+    border-top: rgb(150, 150, 150) 1px solid;
+    border-bottom: rgb(150, 150, 150) 1px solid;
+    margin-top: 18px; /* important to be 18 so it aligns */
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+p {
+    font-family: 'Catamaran';
+    color: #1c1c1c;
+    color: rgb(180,180,180);
+    font-size: 20px;
+}
+
+a:link  {
+    text-decoration: none;
+}
+
+.intext-link:hover {
+    text-decoration: underline;
+}
+
+.content-header {
+    font-family: 'Assistant';
+    /* color: #3E5E7C; */
+    color: rgb(200,200,255);
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 17px;
+    margin-bottom: 3px;
+}
+
+#links-section {
+    margin-left: 30px;
+}
+
+#footer-section {
+    margin-top: 45px;
+    margin-bottom: 12px;
+}
+
+#footer-section p {
+    padding-right: 50px;
+    text-align: right;
+    font-family: 'Manrope';
+    /* color: #7E7E7E; */
+    color: rgb(200,200,200);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#github-logo-footer {
+
+    image-rendering: crisp-edges;
+
+     transition-property: transform;
+     transition: 0.4s; 
+
+    margin-left: 35px;
+    float: left;
+    margin-top: -4px;
+    width: 30px;
+}
+
+#github-logo-footer:hover,
+#github-logo-footer:focus{
+     transform: scale(1.2); 
+}
+
+ul {
+
+      font-size: 19px; 
+    font-family: 'Catamaran';
+      margin-bottom: 24px; 
+      /* color: rgba(15,15,15,255); */
+      color: rgb(200,200,200);
+
+}
+
+li {
+
+      font-size: 19px; 
+    font-family: 'Catamaran';
+      /* color: rgba(30,30,30,255); */
+      color: rgb(200,200,200);
+}
+
